@@ -24,3 +24,8 @@
     <Route path='/cart' element={<Cart />} />
     <Route path='/order' element={<PlaceOrder />} />
    </Routes> -->
+
+### Question need for reasearch
+
+1. what is @keyframe in the css
+   - It could reused in the transition with opacity with some UI/UX design
