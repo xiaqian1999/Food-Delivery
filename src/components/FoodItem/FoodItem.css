@@ -10,12 +10,6 @@
 .food-item-image{
     width: 100%;
     border-radius: 15px 15px 0px 0px;
-    transition: 0.5s;
-}
-
-.food-item-image:hover{
-    transform: scale(1.05);
-    padding: 10px;
 }
 
 .food-item-info{
