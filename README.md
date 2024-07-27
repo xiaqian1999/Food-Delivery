@@ -15,6 +15,10 @@
 
 ### Backend
 
+- Admin able to add new menu item into the menu list
+- User able to create an account with email
+- User able to create order based on the menu items they add into the cart
+
 ## Initial Set Up for dependencies
 
 - npm install
@@ -74,6 +78,20 @@
 1. Google "Mongodb atlas" and sign in
 2. Create Organization and Project
 3. Create Database with Provider Google Cloud
+
+- Initialize Set Up for Admin Page
+
+1. npm install axios react-toastify react-router-dom
+   a. axios: create the network request for GET, POST
+   b. react-toastify: create the toast notification
+   import { ToastContainer, toast } from 'react-toastify';
+   import 'react-toastify/dist/ReactToastify.css';
+
+-
+
+1. Create userController
+2. Create userRoute
+3. userModel
 
 ## Question need for reasearch
 
