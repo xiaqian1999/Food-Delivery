@@ -87,11 +87,19 @@
    import { ToastContainer, toast } from 'react-toastify';
    import 'react-toastify/dist/ReactToastify.css';
 
--
+- How to setup with router and controller initially
 
-1. Create userController
-2. Create userRoute
-3. userModel
+1. Create userController.js
+   a. First create the functionality by url (ex: addItem, removeItem, getItem)
+   b. Import the Models
+   c. Export the above 3 functions
+2. Create userRoute.js
+   a. Import the functions from the controller
+   b. Initialize with const xxxRouter = express.Router();
+   c. Then xxxRouter.get() or xxxRouter.post()
+3. Create userModel.js
+4. Inside the server.js
+   a. Add on app.use("/api/xxx", xxxRouter)
 
 ## Question need for reasearch
 
