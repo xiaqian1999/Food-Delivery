@@ -39,16 +39,16 @@
 
 1. main.jsx
    - import { BrowserRouter } from 'react-router-dom'
-   - <!-- wrap <App /> inside the <browserRouter> -->
+   - wrap <App /> inside the <browserRouter>
 
 2. App.jsx
    - import each folder jsx file under the pages
    -
-   <!-- <Routes>
+   <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/cart' element={<Cart />} />
     <Route path='/order' element={<PlaceOrder />} />
-   </Routes> -->
+   </Routes>
 
 - Set Up Backend
 
