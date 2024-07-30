@@ -1,6 +1,11 @@
 # Food Delivery Web Page
 
 ## Tool in Use
+- React JS, HTML/CSS, MongoDB
+- Depencies in use: axios, express, stripe
+
+## Video walkthrough
+[![Watch the video]([https://i.sstatic.net/Vp2cE.png](https://github.com/user-attachments/assets/cdf2b8d9-c887-4079-be87-de1810757f65))]([https://youtu.be/vt5fpE0bzSY](https://youtu.be/61FYixVP4Ok))
 
 ## Features include inside this app
 
