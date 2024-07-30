@@ -18,6 +18,10 @@
 - Admin able to add new menu item into the menu list
 - User able to create an account with email
 - User able to create order based on the menu items they add into the cart
+- User able to make the purchase of the order through Stripe API
+- User able to view all their orders
+- User able to track the order current status
+- All foods, address, order, and user account information are stored in the DB with 3 tables: foods, orders, users
 
 ## Initial Set Up for dependencies
 
