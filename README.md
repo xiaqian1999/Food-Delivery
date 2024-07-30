@@ -91,24 +91,24 @@
 - Initialize Set Up for Admin Page
 
 1. npm install axios react-toastify react-router-dom
-   a. axios: create the network request for GET, POST
-   b. react-toastify: create the toast notification
+   - axios: create the network request for GET, POST
+   - react-toastify: create the toast notification
    import { ToastContainer, toast } from 'react-toastify';
    import 'react-toastify/dist/ReactToastify.css';
 
 - How to setup with router and controller initially
 
 1. Create userController.js
-   a. First create the functionality by url (ex: addItem, removeItem, getItem)
-   b. Import the Models
-   c. Export the above 3 functions
+   - First create the functionality by url (ex: addItem, removeItem, getItem)
+   - Import the Models
+   - Export the above 3 functions
 2. Create userRoute.js
-   a. Import the functions from the controller
-   b. Initialize with const xxxRouter = express.Router();
-   c. Then xxxRouter.get() or xxxRouter.post()
+   - Import the functions from the controller
+   - Initialize with const xxxRouter = express.Router();
+   - Then xxxRouter.get() or xxxRouter.post()
 3. Create userModel.js
 4. Inside the server.js
-   a. Add on app.use("/api/xxx", xxxRouter)
+   - Add on app.use("/api/xxx", xxxRouter)
 
 ## Question need for reasearch
 
